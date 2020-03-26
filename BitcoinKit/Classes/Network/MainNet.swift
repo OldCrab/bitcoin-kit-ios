@@ -1,6 +1,6 @@
 import BitcoinCore
 
-class MainNet: INetwork {
+public class MainNet: INetwork {
     let bundleName = "BitcoinKit"
 
     let pubKeyHash: UInt8 = 0x00
